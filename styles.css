@@ -1,0 +1,30 @@
+/* Home Page Styles */
+@font-face {
+  font-family: cursiveFont;
+  src: url(caveat-font.ttf);
+}
+
+* {
+  font-family: cursiveFont;
+  max-width: 100vh;
+  max-height: 100vh;
+}
+
+body {
+  background-color: #6F4D38;
+}
+
+#title {
+  color: #dac7ad;
+  font-size: 50px;
+  position: relative;
+  left: 10%;
+}
+
+#img1 {
+  display: block;
+  position: relative;
+  margin: auto;
+  left: 10%;
+}
+
