@@ -1,0 +1,38 @@
+@font-face {
+  font-family: cursiveFont;
+  src: url(caveat-font.ttf);
+}
+
+* {
+  font-family: cursiveFont;
+}
+
+body {
+  background-color: #6F4D38;
+}
+
+#title {
+  text-align: center;
+  font-size: 40px;
+  color: beige;
+}
+
+a {
+  border: 1px solid black;
+  border-radius: 5%;
+  color: black;
+  background-color: antiquewhite;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+a:hover {
+  background-color: beige;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(223, 223, 182);
+  font-weight: 400;
+}
